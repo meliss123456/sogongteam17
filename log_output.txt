@@ -1,0 +1,32 @@
+[SJKim] Mon May 2 12:29:31 2022 +0900 보고서에 협업 툴 정보 추가 c8af620
+[SJKim] Mon May 2 12:27:15 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 fb325e7
+[SJKim] Mon May 2 12:27:12 2022 +0900 resolve conflict e91ddba
+[Seon-Jong Kim] Mon May 2 12:26:15 2022 +0900 Merge pull request #5 from gyun-ky/master d715ecb
+[kim_ki_yun] Mon May 2 01:30:57 2022 +0900 feat:payment ux/ui 합본 밑 검토 f9969af
+[Seon-Jong Kim] Mon May 2 01:04:55 2022 +0900 Merge pull request #4 from meliss123456/master 085f4bd
+[meliss123456] Mon May 2 00:40:34 2022 +0900 finish 9c74c02
+[Seon-Jong Kim] Mon May 2 00:01:16 2022 +0900 Merge pull request #3 from meliss123456/master fb1d48f
+[SJKim] Sun May 1 23:20:10 2022 +0900 보고서 작성 - user 부분 description & UI b272ae4
+[meliss123456] Sun May 1 20:01:03 2022 +0900 Add files via upload d0d2d77
+[SJKim] Sun May 1 17:15:24 2022 +0900 use case description & UI screen design 9fdffc2
+[SJKim] Sun May 1 16:19:27 2022 +0900 use case diagram 통합본 44c01bd
+[SJKim] Sun May 1 16:18:53 2022 +0900 user use case diagram 추가 67d510b
+[Seon-Jong Kim] Sun May 1 15:22:53 2022 +0900 Merge pull request #2 from meliss123456/master 2a7bc5d
+[Seon-Jong Kim] Sun May 1 15:22:45 2022 +0900 Merge pull request #1 from gyun-ky/master 8735b14
+[kim_ki_yun] Sat Apr 30 15:07:25 2022 +0900 payment 관련 uxui 4a8ce39
+[meliss123456] Fri Apr 29 22:30:30 2022 +0900 Delete text b668260
+[meliss123456] Fri Apr 29 22:30:11 2022 +0900 Add files via upload 5bc09bd
+[meliss123456] Fri Apr 29 22:28:52 2022 +0900 Delete Use case description_order.mdj 68ff4f0
+[meliss123456] Fri Apr 29 22:28:32 2022 +0900 Delete Use Case description  _Order.docx 017096c
+[meliss123456] Fri Apr 29 22:28:17 2022 +0900 Create text b79135c
+[meliss123456] Fri Apr 29 22:25:29 2022 +0900 Delete order ecca709
+[meliss123456] Fri Apr 29 22:25:19 2022 +0900 Create order 07c5cd6
+[meliss123456] Fri Apr 29 22:24:27 2022 +0900 Delete order 1c604f8
+[meliss123456] Fri Apr 29 22:24:14 2022 +0900 Create order 5285593
+[meliss123456] Fri Apr 29 22:22:58 2022 +0900 Delete order 707df3b
+[meliss123456] Fri Apr 29 22:22:49 2022 +0900 Create order 7bfcfef
+[meliss123456] Fri Apr 29 22:21:41 2022 +0900 Delete 스크린샷 2022-04-29 오후 10.20.32.png ed7a2d1
+[meliss123456] Fri Apr 29 22:20:47 2022 +0900 Add files via upload 53521b1
+[kim_ki_yun] Fri Apr 29 19:02:54 2022 +0900 feat:usecase description ab7079a
+[kim_ki_yun] Fri Apr 29 17:50:59 2022 +0900 feat:usecase diagram f7b4d77
+[Seon-Jong Kim] Mon Apr 25 15:13:54 2022 +0900 Initial commit 6bdd43a
