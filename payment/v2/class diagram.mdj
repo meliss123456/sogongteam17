@@ -538,13 +538,30 @@
 											"height": 13,
 											"text": "+deductStock()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGA190nSfdBuUY=",
+											"_parent": {
+												"$ref": "AAAAAAGA0I5qj6BE2Mg="
+											},
+											"model": {
+												"$ref": "AAAAAAGA190nP/c+wmM="
+											},
+											"font": "Arial;13;0",
+											"left": 181,
+											"top": 763,
+											"width": 191,
+											"height": 13,
+											"text": "+getProductDetail()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 176,
 									"top": 728,
 									"width": 201,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -584,7 +601,7 @@
 							"left": 176,
 							"top": 592,
 							"width": 201,
-							"height": 174,
+							"height": 189,
 							"nameCompartment": {
 								"$ref": "AAAAAAGA0I5qj6A+tew="
 							},
@@ -1033,8 +1050,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 405,
-									"top": 666,
+									"left": 404,
+									"top": 670,
 									"width": 48.7880859375,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1056,8 +1073,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 430,
-									"top": 651,
+									"left": 429,
+									"top": 655,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1077,8 +1094,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 426,
-									"top": 695,
+									"left": 427,
+									"top": 699,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1099,7 +1116,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 403,
-									"top": 664,
+									"top": 669,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1119,8 +1136,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 407,
-									"top": 651,
+									"left": 406,
+									"top": 656,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1139,8 +1156,8 @@
 										"$ref": "AAAAAAGA0QZ2jqK6USk="
 									},
 									"font": "Arial;13;0",
-									"left": 388,
-									"top": 691,
+									"left": 389,
+									"top": 697,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1162,8 +1179,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 454,
-									"top": 668,
+									"left": 453,
+									"top": 671,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -1182,8 +1199,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 452,
-									"top": 654,
+									"left": 451,
+									"top": 657,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1202,7 +1219,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 453,
-									"top": 695,
+									"top": 698,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -1249,7 +1266,7 @@
 								"$ref": "AAAAAAGA0I5qj6A9sXk="
 							},
 							"lineStyle": 1,
-							"points": "377:684;479:691",
+							"points": "377:690;479:693",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGA0QZ2jqK+qPs="
@@ -2149,6 +2166,14 @@
 								"$ref": "AAAAAAGA0I5qjqA7eYA="
 							},
 							"name": "deductStock"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGA190nP/c+wmM=",
+							"_parent": {
+								"$ref": "AAAAAAGA0I5qjqA7eYA="
+							},
+							"name": "getProductDetail"
 						}
 					]
 				},
