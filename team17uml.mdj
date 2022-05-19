@@ -3868,7 +3868,7 @@
 											"top": 819.5,
 											"width": 137,
 											"height": 13,
-											"text": "payment"
+											"text": "purchase"
 										},
 										{
 											"_type": "LabelView",
@@ -6131,9 +6131,9 @@
 										"$ref": "AAAAAAGAx+810bZmuks="
 									},
 									"font": "Arial;13;0",
-									"left": 574,
+									"left": 570,
 									"top": 1017,
-									"width": 53.49169921875,
+									"width": 60.2939453125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -6590,7 +6590,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFElm6BOFNpegQ="
 					},
-					"name": "payment",
+					"name": "purchase",
 					"ownedElements": [
 						{
 							"_type": "UMLInclude",
