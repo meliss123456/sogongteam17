@@ -1,3 +1,40 @@
+[SJKim] Thu May 19 13:21:32 2022 +0900 prj2 final 2f98256
+[SJKim] Thu May 19 11:40:25 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 c583be0
+[Seon-Jong Kim] Thu May 19 11:40:05 2022 +0900 Merge pull request #13 from meliss123456/master bb347fc
+[meliss123456] Thu May 19 11:15:58 2022 +0900 order re 8a39d8e
+[SJKim] Thu May 19 10:53:03 2022 +0900 보고서 최종 acc22df
+[SJKim] Thu May 19 10:06:48 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 96926b1
+[SJKim] Thu May 19 10:06:44 2022 +0900 communication diagram for user model 01f753f
+[Seon-Jong Kim] Thu May 19 10:05:40 2022 +0900 Merge pull request #12 from gyun-ky/master 3fa84b0
+[kim_ki_yun] Thu May 19 00:54:49 2022 +0900 fix:class diagram fix d1301f9
+[kim_ki_yun] Thu May 19 00:48:56 2022 +0900 fix:communication diagram fix 2316ca9
+[Seon-Jong Kim] Wed May 18 14:49:51 2022 +0900 Merge pull request #11 from gyun-ky/master e63e82e
+[kim_ki_yun] Wed May 18 01:48:32 2022 +0900 fix:commit 17053d4
+[kim_ki_yun] Wed May 18 01:47:33 2022 +0900 fix:communication diagram & class diagram ff8236b
+[meliss123456] Wed May 18 00:31:42 2022 +0900 Merge branch 'master' of https://github.com/meliss123456/sogongteam17 7e1e6b2
+[meliss123456] Wed May 18 00:31:17 2022 +0900 ds 1db12b3
+[meliss123456] Wed May 18 00:31:04 2022 +0900 Create .DS_Store 1dc9946
+[meliss123456] Wed May 18 00:30:36 2022 +0900 Re_order diagrams 1478121
+[Seon-Jong Kim] Tue May 17 23:21:18 2022 +0900 Merge pull request #10 from meliss123456/master 77914ce
+[Seon-Jong Kim] Tue May 17 23:21:10 2022 +0900 Delete .DS_Store 8a2af76
+[meliss123456] Tue May 17 23:20:05 2022 +0900 Delete .DS_Store 06bc3a9
+[meliss123456] Tue May 17 23:19:53 2022 +0900 Delete .DS_Store 8154cc6
+[meliss123456] Tue May 17 23:18:45 2022 +0900 re dc23ac9
+[meliss123456] Tue May 17 23:11:36 2022 +0900 Order diagrams 3a72ec5
+[Seon-Jong Kim] Tue May 17 23:06:06 2022 +0900 Delete .DS_Store 1240517
+[Seon-Jong Kim] Tue May 17 23:00:46 2022 +0900 Merge pull request #8 from gyun-ky/master e8d0828
+[SJKim] Tue May 17 20:49:56 2022 +0900 add communication diagram, class diagram be58d05
+[meliss123456] Tue May 17 19:49:23 2022 +0900 communication & class diagram 911b84d
+[kim_ki_yun] Tue May 17 18:16:49 2022 +0900 feat:communication diagram & class diagram v1 bf41427
+[SJKim] Sun May 15 22:37:45 2022 +0900 update use case diagram 990a0ab
+[SJKim] Sun May 15 22:21:11 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 e329a66
+[SJKim] Sun May 15 22:20:31 2022 +0900 v2 버전 추가 5e16a24
+[Seon-Jong Kim] Sun May 15 22:19:48 2022 +0900 Merge pull request #7 from meliss123456/master 9a94419
+[Seon-Jong Kim] Sun May 15 22:19:42 2022 +0900 Merge pull request #6 from gyun-ky/master 5d2d748
+[meliss123456] Fri May 13 18:32:58 2022 +0900 v2 추가 e9ad5af
+[kim_ki_yun] Fri May 13 12:38:36 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 26fe313
+[kim_ki_yun] Fri May 13 12:38:19 2022 +0900 feat:v2-usecae usercase description ca677fb
+[SJKim] Mon May 2 12:30:57 2022 +0900 git history file 업로드 51467a3
 [SJKim] Mon May 2 12:29:31 2022 +0900 보고서에 협업 툴 정보 추가 c8af620
 [SJKim] Mon May 2 12:27:15 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 fb325e7
 [SJKim] Mon May 2 12:27:12 2022 +0900 resolve conflict e91ddba
