@@ -1,0 +1,69 @@
+[SJKim] Thu May 19 13:21:32 2022 +0900 prj2 final 2f98256
+[SJKim] Thu May 19 11:40:25 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 c583be0
+[Seon-Jong Kim] Thu May 19 11:40:05 2022 +0900 Merge pull request #13 from meliss123456/master bb347fc
+[meliss123456] Thu May 19 11:15:58 2022 +0900 order re 8a39d8e
+[SJKim] Thu May 19 10:53:03 2022 +0900 보고서 최종 acc22df
+[SJKim] Thu May 19 10:06:48 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 96926b1
+[SJKim] Thu May 19 10:06:44 2022 +0900 communication diagram for user model 01f753f
+[Seon-Jong Kim] Thu May 19 10:05:40 2022 +0900 Merge pull request #12 from gyun-ky/master 3fa84b0
+[kim_ki_yun] Thu May 19 00:54:49 2022 +0900 fix:class diagram fix d1301f9
+[kim_ki_yun] Thu May 19 00:48:56 2022 +0900 fix:communication diagram fix 2316ca9
+[Seon-Jong Kim] Wed May 18 14:49:51 2022 +0900 Merge pull request #11 from gyun-ky/master e63e82e
+[kim_ki_yun] Wed May 18 01:48:32 2022 +0900 fix:commit 17053d4
+[kim_ki_yun] Wed May 18 01:47:33 2022 +0900 fix:communication diagram & class diagram ff8236b
+[meliss123456] Wed May 18 00:31:42 2022 +0900 Merge branch 'master' of https://github.com/meliss123456/sogongteam17 7e1e6b2
+[meliss123456] Wed May 18 00:31:17 2022 +0900 ds 1db12b3
+[meliss123456] Wed May 18 00:31:04 2022 +0900 Create .DS_Store 1dc9946
+[meliss123456] Wed May 18 00:30:36 2022 +0900 Re_order diagrams 1478121
+[Seon-Jong Kim] Tue May 17 23:21:18 2022 +0900 Merge pull request #10 from meliss123456/master 77914ce
+[Seon-Jong Kim] Tue May 17 23:21:10 2022 +0900 Delete .DS_Store 8a2af76
+[meliss123456] Tue May 17 23:20:05 2022 +0900 Delete .DS_Store 06bc3a9
+[meliss123456] Tue May 17 23:19:53 2022 +0900 Delete .DS_Store 8154cc6
+[meliss123456] Tue May 17 23:18:45 2022 +0900 re dc23ac9
+[meliss123456] Tue May 17 23:11:36 2022 +0900 Order diagrams 3a72ec5
+[Seon-Jong Kim] Tue May 17 23:06:06 2022 +0900 Delete .DS_Store 1240517
+[Seon-Jong Kim] Tue May 17 23:00:46 2022 +0900 Merge pull request #8 from gyun-ky/master e8d0828
+[SJKim] Tue May 17 20:49:56 2022 +0900 add communication diagram, class diagram be58d05
+[meliss123456] Tue May 17 19:49:23 2022 +0900 communication & class diagram 911b84d
+[kim_ki_yun] Tue May 17 18:16:49 2022 +0900 feat:communication diagram & class diagram v1 bf41427
+[SJKim] Sun May 15 22:37:45 2022 +0900 update use case diagram 990a0ab
+[SJKim] Sun May 15 22:21:11 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 e329a66
+[SJKim] Sun May 15 22:20:31 2022 +0900 v2 버전 추가 5e16a24
+[Seon-Jong Kim] Sun May 15 22:19:48 2022 +0900 Merge pull request #7 from meliss123456/master 9a94419
+[Seon-Jong Kim] Sun May 15 22:19:42 2022 +0900 Merge pull request #6 from gyun-ky/master 5d2d748
+[meliss123456] Fri May 13 18:32:58 2022 +0900 v2 추가 e9ad5af
+[kim_ki_yun] Fri May 13 12:38:36 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 26fe313
+[kim_ki_yun] Fri May 13 12:38:19 2022 +0900 feat:v2-usecae usercase description ca677fb
+[SJKim] Mon May 2 12:30:57 2022 +0900 git history file 업로드 51467a3
+[SJKim] Mon May 2 12:29:31 2022 +0900 보고서에 협업 툴 정보 추가 c8af620
+[SJKim] Mon May 2 12:27:15 2022 +0900 Merge branch 'master' of https://github.com/S-J-Kim/sogongteam17 fb325e7
+[SJKim] Mon May 2 12:27:12 2022 +0900 resolve conflict e91ddba
+[Seon-Jong Kim] Mon May 2 12:26:15 2022 +0900 Merge pull request #5 from gyun-ky/master d715ecb
+[kim_ki_yun] Mon May 2 01:30:57 2022 +0900 feat:payment ux/ui 합본 밑 검토 f9969af
+[Seon-Jong Kim] Mon May 2 01:04:55 2022 +0900 Merge pull request #4 from meliss123456/master 085f4bd
+[meliss123456] Mon May 2 00:40:34 2022 +0900 finish 9c74c02
+[Seon-Jong Kim] Mon May 2 00:01:16 2022 +0900 Merge pull request #3 from meliss123456/master fb1d48f
+[SJKim] Sun May 1 23:20:10 2022 +0900 보고서 작성 - user 부분 description & UI b272ae4
+[meliss123456] Sun May 1 20:01:03 2022 +0900 Add files via upload d0d2d77
+[SJKim] Sun May 1 17:15:24 2022 +0900 use case description & UI screen design 9fdffc2
+[SJKim] Sun May 1 16:19:27 2022 +0900 use case diagram 통합본 44c01bd
+[SJKim] Sun May 1 16:18:53 2022 +0900 user use case diagram 추가 67d510b
+[Seon-Jong Kim] Sun May 1 15:22:53 2022 +0900 Merge pull request #2 from meliss123456/master 2a7bc5d
+[Seon-Jong Kim] Sun May 1 15:22:45 2022 +0900 Merge pull request #1 from gyun-ky/master 8735b14
+[kim_ki_yun] Sat Apr 30 15:07:25 2022 +0900 payment 관련 uxui 4a8ce39
+[meliss123456] Fri Apr 29 22:30:30 2022 +0900 Delete text b668260
+[meliss123456] Fri Apr 29 22:30:11 2022 +0900 Add files via upload 5bc09bd
+[meliss123456] Fri Apr 29 22:28:52 2022 +0900 Delete Use case description_order.mdj 68ff4f0
+[meliss123456] Fri Apr 29 22:28:32 2022 +0900 Delete Use Case description  _Order.docx 017096c
+[meliss123456] Fri Apr 29 22:28:17 2022 +0900 Create text b79135c
+[meliss123456] Fri Apr 29 22:25:29 2022 +0900 Delete order ecca709
+[meliss123456] Fri Apr 29 22:25:19 2022 +0900 Create order 07c5cd6
+[meliss123456] Fri Apr 29 22:24:27 2022 +0900 Delete order 1c604f8
+[meliss123456] Fri Apr 29 22:24:14 2022 +0900 Create order 5285593
+[meliss123456] Fri Apr 29 22:22:58 2022 +0900 Delete order 707df3b
+[meliss123456] Fri Apr 29 22:22:49 2022 +0900 Create order 7bfcfef
+[meliss123456] Fri Apr 29 22:21:41 2022 +0900 Delete 스크린샷 2022-04-29 오후 10.20.32.png ed7a2d1
+[meliss123456] Fri Apr 29 22:20:47 2022 +0900 Add files via upload 53521b1
+[kim_ki_yun] Fri Apr 29 19:02:54 2022 +0900 feat:usecase description ab7079a
+[kim_ki_yun] Fri Apr 29 17:50:59 2022 +0900 feat:usecase diagram f7b4d77
+[Seon-Jong Kim] Mon Apr 25 15:13:54 2022 +0900 Initial commit 6bdd43a
