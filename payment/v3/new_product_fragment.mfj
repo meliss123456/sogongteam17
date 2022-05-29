@@ -1,0 +1,208 @@
+{
+	"_type": "UMLClass",
+	"_id": "AAAAAAGBC3/fBXg8kgE=",
+	"_parent": {
+		"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+	},
+	"name": "Product",
+	"attributes": [
+		{
+			"_type": "UMLAttribute",
+			"_id": "AAAAAAGBC3/fBXgvHII=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "name",
+			"visibility": "private",
+			"type": "String"
+		},
+		{
+			"_type": "UMLAttribute",
+			"_id": "AAAAAAGBC3/fBXgwiBQ=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "manufacturer",
+			"visibility": "private",
+			"type": "String"
+		},
+		{
+			"_type": "UMLAttribute",
+			"_id": "AAAAAAGBC3/fBXgx5o4=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "price",
+			"visibility": "private",
+			"type": "int"
+		},
+		{
+			"_type": "UMLAttribute",
+			"_id": "AAAAAAGBC3/fBXgy5s8=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "quantity",
+			"visibility": "private",
+			"type": "int"
+		},
+		{
+			"_type": "UMLAttribute",
+			"_id": "AAAAAAGBC3/fBXgzNX8=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "avgRating",
+			"visibility": "private",
+			"type": "double"
+		},
+		{
+			"_type": "UMLAttribute",
+			"_id": "AAAAAAGBC3/fBXg0NnI=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "sellerID",
+			"visibility": "private",
+			"type": "String"
+		}
+	],
+	"operations": [
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAGBC3/fBXg1p9w=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "validateProduct",
+			"parameters": [
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC5DhKnjmIBM=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg1p9w="
+					},
+					"name": "name",
+					"type": "String"
+				}
+			]
+		},
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAGBC3/fBXg2pEg=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "createProduct",
+			"parameters": [
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC4783HjITR8=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg2pEg="
+					},
+					"name": "name",
+					"type": "String"
+				},
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC490i3jNUyg=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg2pEg="
+					},
+					"name": "manufacturer",
+					"type": "String"
+				},
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC4+x3HjSPYA=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg2pEg="
+					},
+					"name": "price",
+					"type": "int"
+				},
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC4/bxnjXFQY=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg2pEg="
+					},
+					"name": "quantity",
+					"type": "int"
+				},
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC5AKzXjcUY8=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg2pEg="
+					},
+					"name": "sellerID",
+					"type": "String"
+				}
+			]
+		},
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAGBC3/fBXg33ZU=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "getProducts"
+		},
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAGBC3/fBXg43ug=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "getSoldoutProduct"
+		},
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAGBC3/fBXg5ON8=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "getProductByName",
+			"parameters": [
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC5XNPHqKeBc=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg5ON8="
+					},
+					"name": "name",
+					"type": "String"
+				}
+			]
+		},
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAGBC3/fBXg6RMc=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "deductStock",
+			"parameters": [
+				{
+					"_type": "UMLParameter",
+					"_id": "AAAAAAGBC5ZOAXqPo3s=",
+					"_parent": {
+						"$ref": "AAAAAAGBC3/fBXg6RMc="
+					},
+					"name": "quantity",
+					"type": "int"
+				}
+			]
+		},
+		{
+			"_type": "UMLOperation",
+			"_id": "AAAAAAGBC3/fBXg7d74=",
+			"_parent": {
+				"$ref": "AAAAAAGBC3/fBXg8kgE="
+			},
+			"name": "getProductDetail"
+		}
+	]
+}
