@@ -21,6 +21,12 @@
     <ClCompile Include="signup.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="order.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="user.h">
