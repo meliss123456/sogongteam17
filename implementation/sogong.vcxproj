@@ -142,6 +142,8 @@
     <ClCompile Include="login.cpp" />
     <ClCompile Include="logout.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="order.cpp" />
+    <ClCompile Include="product.cpp" />
     <ClCompile Include="signup.cpp" />
     <ClCompile Include="user.cpp" />
     <ClCompile Include="withdraw.cpp" />
