@@ -10,17 +10,58 @@ void Purchase::createOrder(string userId, string sellerId, string productName, P
 	oc->addOrder(product, sellerId, userId);
 }
 
+
+Order::Order(string buyer, string userId, OrderCollection* ownedProductCollection, Product* productRef) {
+	this->buyer = buyer;//ï¿½Ø´ï¿½ ï¿½Îºï¿½ï¿½ï¿½ userRefï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¹ï¿½ -> ï¿½Ï´ï¿½ addOrder ï¿½Ä¶ï¿½ï¿½ï¿½Í´ï¿½ stringï¿½ï¿½ï¿½ï¿½ user(buyer) ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+	this->product = productRef->getName();
+	this->company = productRef->getManufacturer();
+	this->price = productRef->getPrice();
+	this->rate = productRef->getAvgRating();
+	this->ownedProductCollection = ownedProductCollection;
+	this->productRef = productRef;
+}
+
 void OrderCollection::addOrder(Product* p, string buyer, string userId) {
 	this->ownedProduct[this->cnt] = new Order(buyer, userId, this, p);
 	this->cnt++;
 }
 
-Order::Order(string buyer, string userId, OrderCollection* ownedProductCollection, Product* productRef) {
-	this->buyer = buyer;//ÇØ´ç ºÎºÐÀº userRef¼±¾ðÀ¸·Î ´ëÃ¼ °¡´ÉÇÏÁö ¾ÊÀº°¡ ÀÇ¹® -> ÀÏ´Ü addOrder ÆÄ¶ó¹ÌÅÍ´Â stringÀ¸·Î user(buyer) Á¤º¸ ¹Þ´Â °ÍÀ¸·Î ÇÔ
-	this->product = productRef->getName();
-	this->company = productRef->getManufacturer();
-	this->price = productRef->getPrice();
-	this->totalPrice = productRef->getPrice();
-	this->ownedProductCollection = ownedProductCollection;
-	this->productRef = productRef;
+void OrderCollection::removeOrder(){}
+
+void OrderCollection::findFirst(){}
+
+void OrderCollection::getNext(){}
+
+void OrderCollection::getOrderItem(){
+	
+}
+
+//getTotalPrice,getTotalRate,calculateTotalPrice,calculateTotalRate()ë¥¼ í•˜ë‚˜ë¡œ ë¬¶ìŒ
+// => getStatistics()
+
+string OrderCollection::getStatistics(){
+	string s;
+	for (int i = 0; i < this->cnt; i++)
+	{
+		int sum=0;
+		int avgRating=0;
+		string name=ownedProduct[i]->getName();
+		avgRating=ownedProduct[i]->getAvgRating();
+		int price=ownedProduct[i]->getPrice();
+		int quantity=ownedProduct[i] ->getQty();
+		sum += price*quantity;
+		s+=(name + ' ' + to_string(sum) + ' ' + to_string(avgRating) + '\n');
+	}
+	return s;
+}
+
+
+
+
+void Order::getOrderItemsDetail(){
+
+}
+
+void rateOrderItem(string product,int rate){
+	
 }

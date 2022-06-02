@@ -108,6 +108,16 @@ int Product::getPrice()
 	return this->price;
 }
 
+int Product::getQty()
+{
+	return this->quantity;
+}
+int Product::getAvgRating()
+{
+	return this->avgRating;
+}
+
+
 Product *ProductCollection::getProductByName(string name)
 {
 
