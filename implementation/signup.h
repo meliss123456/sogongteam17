@@ -1,21 +1,30 @@
 #pragma once
-#include <string>
 #include "user.h"
 
 using namespace std;
 
-class SignupUI {
+class Signup;
+class UserRepository;
+
+class SignupUI{
 public:
+	Signup* signupControl;
+	string ID;
+	string PW;
+	string name;
+	int SID;
+
+	SignupUI(Signup*);
 	void completeSignup();
 };
 
-class Signup {
+class Signup{
 private:
 	SignupUI* suUI;
 	UserRepository *userlist;
 
 public:
 	Signup(UserRepository*);
-	User createNewUser();
+	User* createNewUser();
 };
 

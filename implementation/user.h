@@ -17,11 +17,12 @@ public:
 	User(string ID, string PW, string name, int SID);
 	~User();
 
-	User getCurrentUser();
-	void setCurrentUser(User user);
-	bool validateUser();
+	static User* getCurrentUser();
+	static void setCurrentUser(User* user);
 	static User createUser(string ID, string PW, string name, int SID);
-	static void deleteUser();
+	string getID() { return this->ID; }
+	string getPW() { return this->password; }
+	void deleteUser();
 };
 
 class UserRepository {
@@ -29,5 +30,7 @@ private:
 	vector<User*> userlist;
 public:
 	void addUser(User*);
-	void deleteUser(string userID);
+	void deleteUser(string ID);
+	User* findUser(string ID);
+	bool validateUser(string ID);
 };

@@ -21,6 +21,18 @@
     <ClCompile Include="signup.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="withdraw.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="logout.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="user.h">
@@ -33,6 +45,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="product.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="withdraw.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="logout.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
