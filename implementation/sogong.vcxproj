@@ -139,16 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="login.cpp" />
+    <ClCompile Include="logout.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="order.cpp" />
     <ClCompile Include="product.cpp" />
     <ClCompile Include="signup.cpp" />
+    <ClCompile Include="user.cpp" />
+    <ClCompile Include="withdraw.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="login.h" />
+    <ClInclude Include="logout.h" />
     <ClInclude Include="order.h" />
     <ClInclude Include="product.h" />
     <ClInclude Include="signup.h" />
     <ClInclude Include="user.h" />
+    <ClInclude Include="withdraw.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
