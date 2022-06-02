@@ -6,43 +6,46 @@
 
 using namespace std;
 
-class Purchase {
+class Purchase
+{
 public:
-	void createOrder(string userId, string sellerId, string productName, ProductCollection* pc, OrderCollection* oc);
+	void createOrder(string userId, string sellerId, string productName, ProductCollection *pc, OrderCollection *oc);
 };
 
-class OrderCollection {
+class OrderCollection
+{
 private:
-	Order* ownedProduct[100]; //¹è¿­ ÃÊ±âÈ­ ½ÃÅ´
-	int cnt = 0; //cntµµ Ãß°¡ÇÔ
+	Order *ownedProduct[100]; //ë°°ì—´ ì´ˆê¸°í™” ì‹œí‚´
+	int cnt = 0;			  //cntë„ ì¶”ê°€í•¨
 
 public:
-	void addOrder(Product* p, string buyer, string userId);
+	void addOrder(Product *p, string buyer, string userId);
 	void removeOrder(string product);
-	Order* findFirst();
-	Order* getNext();
+	Order *findFirst();
+	Order *getNext();
 	string getOrderItem(string product);
-	int getTotalPrice(Product*);
-	int getTotalRate(Product*);
+	int getTotalPrice(Product *);
+	int getTotalRate(Product *);
 	int calculateTotalPrice();
 	double calculateTotalRate();
 };
 
-class Order {
+class Order
+{
 private:
-	string buyer;//ÇØ´ç ºÎºĞÀº userRef¼±¾ğÀ¸·Î ´ëÃ¼ °¡´ÉÇÏÁö ¾ÊÀº°¡ ÀÇ¹® -> ÀÏ´Ü addOrder ÆÄ¶ó¹ÌÅÍ´Â stringÀ¸·Î user(buyer) Á¤º¸ ¹Ş´Â °ÍÀ¸·Î ÇÔ
-	string product; //ÇØ´ç ºÎºĞÀº productRef·Î ´ëÃ¼ °¡´ÉÇÑµí
+	string buyer;	//í•´ë‹¹ ë¶€ë¶„ì€ userRefì„ ì–¸ìœ¼ë¡œ ëŒ€ì²´ ê°€ëŠ¥í•˜ì§€ ì•Šì€ê°€ ì˜ë¬¸ -> ì¼ë‹¨ addOrder íŒŒë¼ë¯¸í„°ëŠ” stringìœ¼ë¡œ user(buyer) ì •ë³´ ë°›ëŠ” ê²ƒìœ¼ë¡œ í•¨
+	string product; //í•´ë‹¹ ë¶€ë¶„ì€ productRefë¡œ ëŒ€ì²´ ê°€ëŠ¥í•œë“¯
 	string company;
 	int price;
 	int rate = 0;
 	int totalPrice;
 	int totalRate = 0;
-	OrderCollection* ownedProductCollection;
-	Product* productRef;
+	OrderCollection *ownedProductCollection;
+	Product *productRef;
 
 public:
-	Order() {};
-	Order(string buyer, string userId, OrderCollection* ownedProductCollection, Product* productRef);
+	Order(){};
+	Order(string buyer, string userId, OrderCollection *ownedProductCollection, Product *productRef);
 	void getOrderItemDetails();
 	void rateOrderItem(string product, int rate);
 };

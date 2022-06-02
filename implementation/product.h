@@ -6,12 +6,15 @@
 
 using namespace std;
 
-class ProductUI {
-	ProductCollection* productCollection;
-	OrderCollection* orderCollection;
+class ProductUI
+{
+	ProductCollection *productCollection;
+	OrderCollection *orderCollection;
+
 public:
-	ProductUI() {};
-	ProductUI(ProductCollection* p, OrderCollection* o) {
+	ProductUI(){};
+	ProductUI(ProductCollection *p, OrderCollection *o)
+	{
 		this->productCollection = p;
 		this->orderCollection = o;
 	}
@@ -20,13 +23,15 @@ public:
 	void purchaseProduct();
 };
 
-class SearchProduct {
+class SearchProduct
+{
 public:
-	SearchProduct() {};
-	void searchProductByName(ProductCollection * pc, string name);
+	SearchProduct(){};
+	void searchProductByName(ProductCollection *pc, string name);
 };
 
-class Product {
+class Product
+{
 private:
 	string name;
 	string manufacturer;
@@ -34,28 +39,33 @@ private:
 	int quantity;
 	double avgRating;
 	string sellerID;
-	ProductCollection* productCollection;
+	ProductCollection *productCollection;
 
 public:
+	Product(string name, string manufacturer, int price, int qty, string sellerID, ProductCollection *productList);
 	void dedeuctStock(int quantity);
 	void getProductDetail();
-	string getName(); // ÇØ´ç ¸Ş¼Òµå Ãß°¡ÇÔ -> °Ë»ö½Ã private ²¨³»¿Í¾ßÇÔ
-	string getSellerId(); //ÇØ´ç ¸Ş¼Òµå Ãß°¡ÇÔ -> °Ë»ö½Ã private ²¨³»¿Í¾ßÇÔ
-	string getManufacturer();//ÇØ´ç ¸Ş¼Òµå Ãß°¡ÇÔ -> °Ë»ö½Ã private ²¨³»¿Í¾ßÇÔ
-	int getPrice();//ÇØ´ç ¸Ş¼Òµå Ãß°¡ÇÔ -> °Ë»ö½Ã private ²¨³»¿Í¾ßÇÔ
+	string getName();
+	string getSellerID();
+	string getManufacturer();
+	int getPrice();
+	int getQty();
 };
 
-class ProductCollection {
+class ProductCollection
+{
 private:
-	Product* ownedProduct[100]; //¹è¿­·Î ÃÊ±âÈ­ ½ÃÅ´
-	int cnt; // ÇØ´ç ºÎºĞ Ãß°¡ÇÔ -> °Ë»ö ½Ã, iterationµ¹±â ¾î·Á¿ò µû¶ó»ç »óÇ° µî·Ï½Ã ÇØ´ç cnt ¿Ã¸®±â!!!!
+	Product *ownedProduct[100];
+	int cnt;
 
 public:
 	ProductCollection();
+
+	int getCnt() { return this->cnt; }
 	bool validateProduct(string name);
-	Product* getProductByName(string name);
-	Product* getProductByNameAndSellerID(string sellerId, string name); // ÇØ´ç ¸Ş¼Òµå Ãß°¡ÇÔ -> ±¸¸Å½Ã, »óÇ°¸í°ú »óÇ°ÆÄ¸ÅÀÚ ¾ÆÀÌµğ ÀÔ·Â¹ŞÀ½
-	Product* getSoldoutProduct();
-	Product* getProducts();
-	Product createProduct(string name, string manufacturer, int price, int quantity, string sellerID);
+	Product *getProductByName(string name);
+	Product *getProductByNameAndSellerID(string sellerId, string name); // í•´ë‹¹ ë©”ì†Œë“œ ì¶”ê°€í•¨ -> êµ¬ë§¤ì‹œ, ìƒí’ˆëª…ê³¼ ìƒí’ˆíŒŒë§¤ì ì•„ì´ë”” ì…ë ¥ë°›ìŒ
+	Product *getSoldoutProduct();
+	Product *getProducts();
+	Product createProduct(string name, string manufacturer, int price, int quantity);
 };

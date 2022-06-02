@@ -7,6 +7,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <string>
+#include <fstream>
+#include <iostream>
 
 
 using namespace std;
@@ -34,9 +36,16 @@ int main()
 	//FILE* in_fp = fopen(INPUT_FILE_NAME, "r+");
 	//FILE* out_fp = fopen(OUTPUT_FILE_NAME, "w+");
 
+	ifstream fin;
+	ofstream fout;
 
+	//fin.open(INPUT_FILE_NAME);
+	//fout.open(OUTPUT_FILE_NAME);
 
 	doTask();
+
+	//fin.close();
+	//fout.close();
 
 
 
